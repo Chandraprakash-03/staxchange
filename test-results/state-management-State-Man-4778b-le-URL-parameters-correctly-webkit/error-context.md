@@ -1,0 +1,170 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - link "AI Tech Stack Converter":
+    - /url: /
+    - img
+    - text: AI Tech Stack Converter
+  - link "Home":
+    - /url: /
+  - link "Projects":
+    - /url: /projects
+  - link "Import":
+    - /url: /import
+  - button "Import Project"
+  - button "Sign In"
+- main:
+  - heading "🚀 C# & .NET Integration Demo" [level=1]
+  - paragraph: This demo showcases the tech stack selection interface with C# and .NET options. The current project is a legacy .NET Framework application that you can convert to modern technologies.
+  - heading "✨ New Features:" [level=3]
+  - list:
+    - listitem: C# language support
+    - listitem: .NET framework options
+    - listitem: ASP.NET Core integration
+    - listitem: Intelligent complexity analysis
+  - heading "🎯 Try Converting To:" [level=3]
+  - list:
+    - listitem: Modern .NET 8 + ASP.NET Core
+    - listitem: Node.js + TypeScript + React
+    - listitem: Python + Django
+    - listitem: Java + Spring Boot
+  - heading "Select Target Technology Stack" [level=1]
+  - paragraph: Choose the technologies you want to convert your project to. We'll analyze compatibility and estimate the conversion complexity.
+  - 'heading "Project: Legacy .NET Framework App" [level=2]'
+  - text: "Repository:"
+  - paragraph: https://github.com/user/legacy-dotnet-app
+  - text: "Status:"
+  - paragraph: ready
+  - text: "Size:"
+  - paragraph: 3.0 KB
+  - heading "Current Technology Stack" [level=3]
+  - text: csharp dotnet sqlserver iis
+  - heading "Programming Language *" [level=3]
+  - paragraph: Select the target programming language for your project
+  - button "Popular 🟨 JavaScript Dynamic, versatile language for web development":
+    - text: Popular 🟨
+    - heading "JavaScript" [level=4]
+    - paragraph: Dynamic, versatile language for web development
+  - button "Popular 🔷 TypeScript JavaScript with static type definitions":
+    - text: Popular 🔷
+    - heading "TypeScript" [level=4]
+    - paragraph: JavaScript with static type definitions
+  - button "Popular 🐍 Python High-level, interpreted programming language":
+    - text: Popular 🐍
+    - heading "Python" [level=4]
+    - paragraph: High-level, interpreted programming language
+  - button "☕ Java Object-oriented, platform-independent language":
+    - text: ☕
+    - heading "Java" [level=4]
+    - paragraph: Object-oriented, platform-independent language
+  - button "🐹 Go Fast, statically typed compiled language":
+    - text: 🐹
+    - heading "Go" [level=4]
+    - paragraph: Fast, statically typed compiled language
+  - button "🐘 PHP Server-side scripting language":
+    - text: 🐘
+    - heading "PHP" [level=4]
+    - paragraph: Server-side scripting language
+  - button "🔷 C# Modern, object-oriented programming language":
+    - text: 🔷
+    - heading "C#" [level=4]
+    - paragraph: Modern, object-oriented programming language
+  - heading "Framework" [level=3]
+  - paragraph: Choose a framework or library for your application
+  - button "Popular ⚛️ React Component-based UI library":
+    - text: Popular ⚛️
+    - heading "React" [level=4]
+    - paragraph: Component-based UI library
+  - button "Popular 💚 Vue.js Progressive JavaScript framework":
+    - text: Popular 💚
+    - heading "Vue.js" [level=4]
+    - paragraph: Progressive JavaScript framework
+  - button "🅰️ Angular Full-featured TypeScript framework":
+    - text: 🅰️
+    - heading "Angular" [level=4]
+    - paragraph: Full-featured TypeScript framework
+  - button "Popular ▲ Next.js React framework with SSR and SSG":
+    - text: Popular ▲
+    - heading "Next.js" [level=4]
+    - paragraph: React framework with SSR and SSG
+  - button "🎸 Django High-level Python web framework":
+    - text: 🎸
+    - heading "Django" [level=4]
+    - paragraph: High-level Python web framework
+  - button "🌶️ Flask Lightweight Python web framework":
+    - text: 🌶️
+    - heading "Flask" [level=4]
+    - paragraph: Lightweight Python web framework
+  - button "🍃 Spring Boot Java framework for enterprise applications":
+    - text: 🍃
+    - heading "Spring Boot" [level=4]
+    - paragraph: Java framework for enterprise applications
+  - button "🔷 .NET Microsoft development platform":
+    - text: 🔷
+    - heading ".NET" [level=4]
+    - paragraph: Microsoft development platform
+  - button "🌐 ASP.NET Core Cross-platform web framework":
+    - text: 🌐
+    - heading "ASP.NET Core" [level=4]
+    - paragraph: Cross-platform web framework
+  - heading "Database" [level=3]
+  - paragraph: Select a database system for data storage
+  - button "Popular 🐘 PostgreSQL Advanced open-source relational database":
+    - text: Popular 🐘
+    - heading "PostgreSQL" [level=4]
+    - paragraph: Advanced open-source relational database
+  - button "Popular 🐬 MySQL Popular open-source relational database":
+    - text: Popular 🐬
+    - heading "MySQL" [level=4]
+    - paragraph: Popular open-source relational database
+  - button "🍃 MongoDB NoSQL document database":
+    - text: 🍃
+    - heading "MongoDB" [level=4]
+    - paragraph: NoSQL document database
+  - button "🪶 SQLite Lightweight embedded database":
+    - text: 🪶
+    - heading "SQLite" [level=4]
+    - paragraph: Lightweight embedded database
+  - button "🔴 Redis In-memory data structure store":
+    - text: 🔴
+    - heading "Redis" [level=4]
+    - paragraph: In-memory data structure store
+  - heading "Deployment" [level=3]
+  - paragraph: Choose a deployment platform for your application
+  - button "Popular 🐳 Docker Containerization platform":
+    - text: Popular 🐳
+    - heading "Docker" [level=4]
+    - paragraph: Containerization platform
+  - button "Popular ▲ Vercel Frontend deployment platform":
+    - text: Popular ▲
+    - heading "Vercel" [level=4]
+    - paragraph: Frontend deployment platform
+  - button "🌐 Netlify JAMstack deployment platform":
+    - text: 🌐
+    - heading "Netlify" [level=4]
+    - paragraph: JAMstack deployment platform
+  - button "☁️ AWS Amazon Web Services cloud platform":
+    - text: ☁️
+    - heading "AWS" [level=4]
+    - paragraph: Amazon Web Services cloud platform
+  - button "💜 Heroku Cloud application platform":
+    - text: 💜
+    - heading "Heroku" [level=4]
+    - paragraph: Cloud application platform
+  - button "← Back to Import"
+  - button "Continue to Conversion →" [disabled]
+  - heading "Need Help Choosing?" [level=3]
+  - heading "Popular Combinations:" [level=4]
+  - list:
+    - listitem: • JavaScript + React + PostgreSQL
+    - listitem: • TypeScript + Next.js + MongoDB
+    - listitem: • Python + Django + PostgreSQL
+    - listitem: • Java + Spring Boot + MySQL
+  - heading "Tips:" [level=4]
+  - list:
+    - listitem: • Start with language selection first
+    - listitem: • Consider your deployment target
+    - listitem: • Review compatibility warnings carefully
+    - listitem: • Complex conversions may take longer
+```

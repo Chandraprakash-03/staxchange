@@ -1,0 +1,62 @@
+# Page snapshot
+
+```yaml
+- navigation:
+  - link "AI Tech Stack Converter":
+    - /url: /
+    - img
+    - text: AI Tech Stack Converter
+  - link "Home":
+    - /url: /
+  - link "Projects":
+    - /url: /projects
+  - link "Import":
+    - /url: /import
+  - button "Import Project"
+  - button "Sign In"
+- main:
+  - heading "AI Tech Stack Converter" [level=1]
+  - paragraph: Transform your projects between any technology stacks using AI-powered conversion. Import from GitHub, select your target stack, and let AI do the heavy lifting.
+  - button "Import Your Project"
+  - link "View Demo":
+    - /url: /demo
+  - text: 🚀
+  - heading "Easy Import" [level=3]
+  - paragraph: Simply paste your GitHub repository URL and we'll analyze your project structure automatically.
+  - text: 🤖
+  - heading "AI-Powered" [level=3]
+  - paragraph: Our AI agents understand your code and convert it while maintaining functionality and best practices.
+  - text: 👀
+  - heading "Live Preview" [level=3]
+  - paragraph: See your converted project running live before downloading, with real-time editing capabilities.
+  - heading "Supported Technologies" [level=2]
+  - heading "Frontend" [level=4]
+  - list:
+    - listitem: React
+    - listitem: Vue.js
+    - listitem: Angular
+    - listitem: Svelte
+    - listitem: Next.js
+  - heading "Backend" [level=4]
+  - list:
+    - listitem: Node.js
+    - listitem: Python
+    - listitem: Java
+    - listitem: Go
+    - listitem: PHP
+  - heading "Databases" [level=4]
+  - list:
+    - listitem: PostgreSQL
+    - listitem: MySQL
+    - listitem: MongoDB
+    - listitem: SQLite
+    - listitem: Redis
+  - heading "Deployment" [level=4]
+  - list:
+    - listitem: Docker
+    - listitem: Vercel
+    - listitem: Netlify
+    - listitem: AWS
+    - listitem: Heroku
+- alert
+```
